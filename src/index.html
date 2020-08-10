@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>&lt;/salt&gt; :: ToDo</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
+  </head>
+
+  <body>
+    <main>
+      <form class="input-group">
+        <div class="input-group__header">Register New ToDo</div>
+        <label class="input-group__label" for="title">Title</label>
+        <input class="input-group__input" type="text" id="title" name="title" required />
+        <label class="input-group__label" for="description">Description</label>
+        <input class="input-group__input" type="text" id="description" name="description" required />
+        <button class="input-group__button" type="submit" id="add-button">Add <i class="fas fa-plus"></i></button>
+      </form>
+      <section class="todo-list">
+        <div class="items"></div>
+      </section>
+    </main>
+  </body>
+</html>

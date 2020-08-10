@@ -1,0 +1,49 @@
+.input-group {
+  background-color: #ffa3a6;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+
+.input-group__header {
+  border: 2px solid #ffa3a6;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  font-weight: bold;
+  background-color: #fff;
+  color: #000;
+}
+
+.input-group__input {
+  border: 1px solid #c9a8a9;
+}
+
+.input-group__button {
+  border: 1px solid #000;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  background-color: #000;
+  color: #fff;
+}
+
+.item__container {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+
+.item__title,
+.item__description {
+  font-size: 1.5em;
+}
+
+.item__remove-button {
+  border: 1px solid #de0e3a;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  background-color: #de0e3a;
+  color: #fff;
+}

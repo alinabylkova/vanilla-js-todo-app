@@ -1,0 +1,46 @@
+.todo-list .items {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+}
+
+.todo-list .item__container--pending {
+  order: 1;
+  -webkit-order: 1;
+  -ms-order: 1;
+}
+
+.todo-list .item__container--done {
+  order: 2;
+  -webkit-order: 2;
+  -ms-order: 2;
+}
+
+.input-group,
+.item__container {
+  max-width: 100%;
+  padding: 1em;
+}
+
+.input-group {
+  margin: 2em 1em 0;
+}
+
+.item__container {
+  margin: 0.5em 1em 0;
+}
+
+@media (min-width: 600px) {
+  .input-group {
+    margin: 2em 2em 0;
+  }
+
+  .item__container {
+    margin: 0.5em 2em 0;
+  }
+}

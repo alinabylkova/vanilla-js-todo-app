@@ -1,0 +1,37 @@
+.item__container--pending {
+  background-color: #c3f2e3;
+}
+
+.item__container--pending .item__remove-button {
+  visibility: hidden;
+  -webkit-visibility: hidden;
+  -moz-visibility: hidden;
+}
+
+.item__container--pending .item__title,
+.item__container--pending .item__description {
+  text-decoration: none;
+  color: #000;
+  font-style: normal;
+}
+
+.item__container--done {
+  background-color: #f3f3f3;
+}
+
+.item__container--done .item__remove-button {
+  visibility: visible;
+  -webkit-visibility: visible;
+  -moz-visibility: visible;
+}
+
+.item__container--done .item__title,
+.item__container--done .item__description {
+  text-decoration: line-through;
+  color: #929292;
+  font-style: italic;
+}
+
+.input-group__input--invalid {
+  background-color: #f44336;
+}
