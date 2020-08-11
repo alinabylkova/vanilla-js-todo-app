@@ -2,6 +2,8 @@
 
 A SPA todo-app written in vanilla JS. State is saved in an object and stored in local storage in the browser.
 
+## Images
+
 ![Image of todo app](https://github.com/alinabylkova/vanilla-js-todo-app/blob/master/todo.png)
 
 ### To test it out, run:
